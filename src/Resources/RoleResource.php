@@ -1,13 +1,13 @@
 <?php
 
-namespace BezhanSalleh\FilamentShield\Resources;
+namespace TaasBr\FilamentShield\Resources;
 
-use BezhanSalleh\FilamentShield\Contracts\HasShieldPermissions;
-use BezhanSalleh\FilamentShield\Facades\FilamentShield;
-use BezhanSalleh\FilamentShield\FilamentShieldPlugin;
-use BezhanSalleh\FilamentShield\Forms\ShieldSelectAllToggle;
-use BezhanSalleh\FilamentShield\Resources\RoleResource\Pages;
-use BezhanSalleh\FilamentShield\Support\Utils;
+use TaasBr\FilamentShield\Contracts\HasShieldPermissions;
+use TaasBr\FilamentShield\Facades\FilamentShield;
+use TaasBr\FilamentShield\FilamentShieldPlugin;
+use TaasBr\FilamentShield\Forms\ShieldSelectAllToggle;
+use TaasBr\FilamentShield\Resources\RoleResource\Pages;
+use TaasBr\FilamentShield\Support\Utils;
 use Filament\Forms;
 use Filament\Forms\Components\Component;
 use Filament\Forms\Form;

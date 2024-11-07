@@ -1,7 +1,7 @@
 <?php
 
-use BezhanSalleh\FilamentShield\Facades\FilamentShield;
-use BezhanSalleh\FilamentShield\Resources\RoleResource;
+use TaasBr\FilamentShield\Facades\FilamentShield;
+use TaasBr\FilamentShield\Resources\RoleResource;
 
 it('can check if package testing is configured', function () {
     expect(true)->toBeTrue();

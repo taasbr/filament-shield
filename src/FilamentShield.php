@@ -1,8 +1,8 @@
 <?php
 
-namespace BezhanSalleh\FilamentShield;
+namespace TaasBr\FilamentShield;
 
-use BezhanSalleh\FilamentShield\Support\Utils;
+use TaasBr\FilamentShield\Support\Utils;
 use Closure;
 use Filament\Facades\Filament;
 use Filament\Support\Concerns\EvaluatesClosures;

@@ -1,6 +1,6 @@
 {
-    "name": "bezhansalleh/filament-shield",
-    "description": "Filament support for `spatie/laravel-permission`.",
+    "name": "taasbr/filament-shield",
+    "description": "Filament support for `spatie/laravel-permission`. (Fork: bezhansalleh/filament-shield)",
     "keywords": [
         "bezhanSalleh",
         "laravel",
@@ -13,12 +13,12 @@
         "rbac",
         "security"
     ],
-    "homepage": "https://github.com/bezhansalleh/filament-shield",
+    "homepage": "https://github.com/taasbr/filament-shield",
     "license": "MIT",
     "authors": [
         {
-            "name": "Bezhan Salleh",
-            "email": "bezhan_salleh@yahoo.com",
+            "name": "Adriano Anschau",
+            "email": "adrianoanschau@gmail.com",
             "role": "Developer"
         }
     ],
@@ -42,13 +42,13 @@
     },
     "autoload": {
         "psr-4": {
-            "BezhanSalleh\\FilamentShield\\": "src",
-            "BezhanSalleh\\FilamentShield\\Database\\Factories\\": "database/factories"
+            "TaasBr\\FilamentShield\\": "src",
+            "TaasBr\\FilamentShield\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "BezhanSalleh\\FilamentShield\\Tests\\": "tests"
+            "TaasBr\\FilamentShield\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -68,10 +68,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "BezhanSalleh\\FilamentShield\\FilamentShieldServiceProvider"
+                "TaasBr\\FilamentShield\\FilamentShieldServiceProvider"
             ],
             "aliases": {
-                "FilamentShield": "BezhanSalleh\\FilamentShield\\Facades\\FilamentShield"
+                "FilamentShield": "TaasBr\\FilamentShield\\Facades\\FilamentShield"
             }
         }
     },

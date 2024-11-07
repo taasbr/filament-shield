@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace BezhanSalleh\FilamentShield\Forms;
+namespace TaasBr\FilamentShield\Forms;
 
 use Filament\Forms\Components\Toggle;
 

@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace BezhanSalleh\FilamentShield\Traits;
+namespace TaasBr\FilamentShield\Traits;
 
-use BezhanSalleh\FilamentShield\Support\Utils;
+use TaasBr\FilamentShield\Support\Utils;
 use Filament\Panel;
 
 trait HasPanelShield

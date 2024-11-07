@@ -1,6 +1,6 @@
 <?php
 
-namespace BezhanSalleh\FilamentShield\Commands;
+namespace TaasBr\FilamentShield\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Filesystem\Filesystem;
@@ -31,7 +31,7 @@ class MakeShieldPublishCommand extends Command
         $filesystem->ensureDirectoryExists($baseResourcePath);
         $filesystem->copyDirectory(__DIR__ . '/../Resources', $baseResourcePath);
 
-        $currentNamespace = 'BezhanSalleh\\FilamentShield\\Resources';
+        $currentNamespace = 'TaasBr\\FilamentShield\\Resources';
         $newNamespace = 'App\\Filament\\Resources\\Shield';
 
         $this->replaceInFile($roleResourcePath, $currentNamespace, $newNamespace);

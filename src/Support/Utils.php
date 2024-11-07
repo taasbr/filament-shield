@@ -1,9 +1,9 @@
 <?php
 
-namespace BezhanSalleh\FilamentShield\Support;
+namespace TaasBr\FilamentShield\Support;
 
-use BezhanSalleh\FilamentShield\Contracts\HasShieldPermissions;
-use BezhanSalleh\FilamentShield\FilamentShield;
+use TaasBr\FilamentShield\Contracts\HasShieldPermissions;
+use TaasBr\FilamentShield\FilamentShield;
 use Filament\Facades\Filament;
 use Illuminate\Filesystem\Filesystem;
 use Illuminate\Support\Str;

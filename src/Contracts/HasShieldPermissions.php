@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace BezhanSalleh\FilamentShield\Contracts;
+namespace TaasBr\FilamentShield\Contracts;
 
 interface HasShieldPermissions
 {
